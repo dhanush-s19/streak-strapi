@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_blog_posts",
+  "info": {
+    "displayName": "blog.posts"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

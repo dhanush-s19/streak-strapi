@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "hotel_managings",
+  "info": {
+    "singularName": "hotel-managing",
+    "pluralName": "hotel-managings",
+    "displayName": "HotelManaging"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "hotels": {
+      "type": "component",
+      "component": "shared.hotels",
+      "repeatable": true
+    }
+  }
+}
